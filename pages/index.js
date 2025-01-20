@@ -2,7 +2,7 @@
 let thirukural = document.getElementById("thirukural");
 //Merging the thirukural JSON
 
-fetch("../thirukural.json")
+fetch("/thirukural.json")
 .then(res=>res.json())
 .then((data)=>{
     let generateButton = document.getElementById("button");
